@@ -9,7 +9,9 @@ setup(name='bigquery_helper',
       license='MIT',
       packages=find_packages(),
       install_requires=[
-          "google-cloud", "pandas", "google-auth"
+          "google-cloud", "pandas", "google-auth",
+          "google-cloud-core", "google-cloud-bigquery",
+          "google-cloud-storage"
       ],
       include_package_data=True,
       zip_safe=False)
